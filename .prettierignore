@@ -1,0 +1,7 @@
+# Ignore all scss files:
+src/scss/**/*.scss
+*.css
+*.js
+package-lock.json
+node_modules
+charts

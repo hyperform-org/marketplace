@@ -1,0 +1,16 @@
+{
+  "name": "hyperform",
+  "version": "1.0.0",
+  "description": "Hyperform Management Application",
+  "scripts": {
+    "format": "npm run format:java && npm run format:template",
+    "format:java": "npx prettier --write **/*.java *.md --plugin ./node_modules/prettier-plugin-java/dist/index.js",
+    "format:template": "npx prettier . --write"
+  },
+  "keywords": [],
+  "author": "mr.william.technician1988@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-plugin-java": "^2.5.0"
+  }
+}
